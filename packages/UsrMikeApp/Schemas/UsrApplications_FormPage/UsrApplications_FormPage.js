@@ -160,11 +160,55 @@ define("UsrApplications_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 			},
 			{
 				"operation": "insert",
-				"name": "ComboBox_43n3b3o",
+				"name": "ComboBox_ns2t7ko",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrType_0hdrnpf",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrType_0hdrnpf",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_bp4rif9",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_bp4rif9_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_ns2t7ko",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_43n3b3o",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -183,7 +227,7 @@ define("UsrApplications_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -433,6 +477,11 @@ define("UsrApplications_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 					"PDS_UsrAppStatus_opo4ajh": {
 						"modelConfig": {
 							"path": "PDS.UsrAppStatus"
+						}
+					},
+					"PDS_UsrType_0hdrnpf": {
+						"modelConfig": {
+							"path": "PDS.UsrType"
 						}
 					}
 				}

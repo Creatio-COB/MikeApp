@@ -3,5 +3,6 @@
 		<Compile Include="$(PkgPath)/UsrMikeApp/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/UsrMikeApp/Schemas/Activity/Activity.cs')" />
 		<Compile Include="$(PkgPath)/UsrMikeApp/Schemas/UsrApplications/UsrApplications.cs" Condition="Exists('$(PkgPath)/UsrMikeApp/Schemas/UsrApplications/UsrApplications.cs')" />
 		<Compile Include="$(PkgPath)/UsrMikeApp/Schemas/UsrAppStatLook/UsrAppStatLook.cs" Condition="Exists('$(PkgPath)/UsrMikeApp/Schemas/UsrAppStatLook/UsrAppStatLook.cs')" />
+		<Compile Include="$(PkgPath)/UsrMikeApp/Schemas/UsrAppType/UsrAppType.cs" Condition="Exists('$(PkgPath)/UsrMikeApp/Schemas/UsrAppType/UsrAppType.cs')" />
 	</ItemGroup>
 </Project>

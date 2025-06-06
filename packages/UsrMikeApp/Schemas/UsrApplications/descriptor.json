@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "8fd5baa3-b549-400d-be34-2c676ff9caa7",
     "Name": "UsrApplications",
-    "ModifiedOnUtc": "\/Date(1749114749000)\/",
+    "ModifiedOnUtc": "\/Date(1749230642000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

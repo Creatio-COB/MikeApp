@@ -332,6 +332,7 @@
 		<Compile Remove="$(RelativePkgFolderPath)/UsrMikeApp/Schemas/Activity/Activity.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrMikeApp/Schemas/Activity/Activity.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrMikeApp/Schemas/UsrApplications/UsrApplications.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrMikeApp/Schemas/UsrApplications/UsrApplications.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrMikeApp/Schemas/UsrAppStatLook/UsrAppStatLook.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrMikeApp/Schemas/UsrAppStatLook/UsrAppStatLook.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrMikeApp/Schemas/UsrAppType/UsrAppType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrMikeApp/Schemas/UsrAppType/UsrAppType.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
