@@ -1,0 +1,14 @@
+packages/**/Files/obj
+**.pdb
+.nuget
+**/.vscode
+**/.idea
+
+
+# Ignore all resources except for the en-US localization files
+packages/**/Resources/**/*.*.xml
+!packages/**/Resources/**/*.en-US.xml
+
+# Ignore all data files except for the en-US localization files
+packages/**/Data/**/Localization/data.??-??.json
+!packages/**/Data/**/Localization/data.en-US.json
