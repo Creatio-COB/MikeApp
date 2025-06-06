@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Applications" />
+			<Item Name="Columns.UsrAppContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrAppOwner.Caption" Value="Owner" />
+			<Item Name="Columns.UsrAppStatus.Caption" Value="Status" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c9e3d23-742a-493a-89b5-c104ecb8177f",
+    "Name": "UsrApplications_ListPage",
+    "ModifiedOnUtc": "\/Date(1749114532000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Applications list page",
+    "DependsOn": []
+  }
+}

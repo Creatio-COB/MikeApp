@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7c5a094e-16b7-43bd-bb51-6cd6cf61b34b",
+    "Name": "UsrAppStatLook",
+    "ModifiedOnUtc": "\/Date(1749114747000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application status",
+    "DependsOn": []
+  }
+}

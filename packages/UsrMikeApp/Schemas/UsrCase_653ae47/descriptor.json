@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8c47815f-817f-4b7c-886d-c628e5db5eb6",
+    "Name": "UsrCase_653ae47",
+    "ModifiedOnUtc": "\/Date(1749219035000)\/",
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Application DCM",
+    "DependsOn": []
+  }
+}
